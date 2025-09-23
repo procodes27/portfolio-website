@@ -1214,6 +1214,11 @@ textarea {
   .avatar-code {
     font-size: 3rem;
   }
+  
+  /* CP: 2 columns on tablets */
+  .cp-grid {
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
@@ -1277,6 +1282,11 @@ textarea {
   
   .avatar-code {
     font-size: 2.5rem;
+  }
+  
+  /* CP: stack to 1 column on phones */
+  .cp-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1564,5 +1574,18 @@ textarea {
   .cp-card {
     background: var(--bg-secondary);
     border: 1px solid var(--border);
+  }
+}
+
+/* CP responsive overrides — keep these at the end so they beat the base rule */
+@media (max-width: 1024px) {
+  .cp-grid {
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .cp-grid {
+    grid-template-columns: 1fr;
   }
 }
