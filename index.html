@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portfolio of PRINCE KUMAR — Frontend Developer specializing in React, JavaScript, and modern web technologies" />
+  <title>PRINCE KUMAR - Frontend Developer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="style.css" />
+<link rel="icon" href="data:,">
+
+
+  </head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-text">PRINCE KUMAR</span>
+        
+      </a>
+
+      <button id="navToggle" class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#cp">CP</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-greeting">Hi there! I'm</p>
+            <h1 class="hero-name">PRINCE KUMAR</h1>
+            <h2 class="hero-title">Frontend Developer</h2>
+            <p class="hero-description">
+              I create beautiful, responsive web applications using modern technologies like React, JavaScript, and CSS. 
+              Passionate about clean code, user experience, and bringing ideas to life through code.
+            </p>
+            <div class="hero-buttons">
+              <a class="btn primary" href="#projects">
+                <i class="fas fa-code"></i>
+                View My Work
+              </a>
+              <a class="btn ghost" href="#contact">
+                <i class="fas fa-envelope"></i>
+                Get In Touch
+              </a>
+            </div>
+            <div class="hero-social">
+              <a href="https://github.com/procodes27" target="_blank" rel="noopener" aria-label="GitHub Profile">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/prince-kumar-06233a28b/" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:sukheprince27@gmail.com" aria-label="Send Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="hero-avatar">
+              <div class="avatar-bg"></div>
+              <img class="avatar-img" src="profile.jpg" alt="Prince Kumar profile photo" loading="eager" decoding="async">
+              <!-- <div class="avatar-code">
+                <span>&lt;/&gt;</span>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate frontend developer with a love for creating intuitive and engaging web experiences. 
+              With expertise in modern JavaScript frameworks and a keen eye for design, I transform ideas into 
+              pixel-perfect, responsive websites.
+            </p>
+            <p>
+              When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
+              or sharing knowledge with the developer community. I believe in writing clean, maintainable code 
+              and staying up-to-date with the latest web development trends.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="about-card">
+              <div class="card-header">
+                <div class="card-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="code-line">
+                  <span class="code-keyword">const</span>
+                  <span class="code-variable">developer</span>
+                  <span class="code-operator">=</span>
+                  <span class="code-bracket">{</span>
+                </div>
+                <div class="code-line indent">
+                  <span class="code-property">name:</span>
+                  <span class="code-string">"Prince Kumar"</span>,
+                </div>
+                <div class="code-line indent">
+                  <span class="code-property">role:</span>
+                  <span class="code-string">"Frontend Developer"</span>,
+                </div>
+                <div class="code-line indent">
+                  <span class="code-property">passion:</span>
+                  <span class="code-string">"Web Development"</span>
+                </div>
+                <div class="code-line">
+                  <span class="code-bracket">}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>Skills & Technologies</h2>
+          <p class="section-subtitle">Technologies I work with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-items">
+              <span class="skill-item">
+                <i class="fab fa-html5"></i>
+                HTML5
+              </span>
+              <span class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                CSS3
+              </span>
+              <span class="skill-item">
+                <i class="fab fa-js-square"></i>
+                JavaScript
+              </span>
+              <span class="skill-item">
+                <i class="fab fa-react"></i>
+                React
+              </span>
+              <span class="skill-item">
+                <i class="fab fa-vue"></i>
+                Vue.js
+              </span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Styling</h3>
+            <div class="skill-items">
+              <span class="skill-item">
+                <i class="fab fa-sass"></i>
+                Sass/SCSS
+              </span>
+              <span class="skill-item">
+                <i class="fas fa-wind"></i>
+                Tailwind CSS
+              </span>
+              <span class="skill-item">
+                <i class="fab fa-bootstrap"></i>
+                Bootstrap
+              </span>
+              <span class="skill-item">
+                <i class="fas fa-mobile-alt"></i>
+                Responsive Design
+              </span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Others</h3>
+            <div class="skill-items">
+              <span class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                Git
+              </span>
+              <span class="skill-item">
+                <i class="fab fa-github"></i>
+                GitHub
+              </span>
+              <span class="skill-item">
+                <i class="fab fa-figma"></i>
+                Figma
+              </span>
+              <span class="skill-item">
+                <i class="fas fa-server"></i>
+                REST APIs
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb">
+              <!-- Project wallpaper: replace src with your own image -->
+              <img class="project-thumb-img" src="https://wallpapers.com/images/high/food-4k-spdnpz7bhmx4kv2r.webp" alt="Preview — The Recipe Box" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://procodes27.github.io/the-recipe-box/" target="_blank" rel="noopener" class="project-link-btn" aria-label="View The Recipe Box live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://github.com/procodes27/the-recipe-box" target="_blank" rel="noopener" class="project-link-btn" aria-label="View The Recipe Box source code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>The Recipe Box</h3>
+              <p class="project-desc">
+                Search and browse recipes with clean UI, quick filtering, and responsive layout.
+              </p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>CSS</span>
+                <span>API</span>
+                <span>Responsive</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <!-- Project wallpaper: replace src with your own image -->
+              <img class="project-thumb-img" src="https://wallpapers.com/images/high/weather-scenarios-collage-dbk9c5n23l7e5fgb.webp" alt="Preview — Weather Now" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://procodes27.github.io/weather-now/" target="_blank" rel="noopener" class="project-link-btn" aria-label="View Weather Now live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://github.com/procodes27/weather-now" target="_blank" rel="noopener" class="project-link-btn" aria-label="View Weather Now source code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Weather Now</h3>
+              <p class="project-desc">
+                Real-time weather by city and location with clean cards and smooth UX.
+              </p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>OpenWeather API</span>
+                <span>Geolocation</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <!-- Project wallpaper: replace src with your own image -->
+              <img class="project-thumb-img" src="https://img.freepik.com/free-photo/flat-lay-notebook-with-list-desk_23-2148938724.jpg" alt="Preview — ToDo App" loading="lazy">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://procodes27.github.io/todo-app/" target="_blank" rel="noopener" class="project-link-btn" aria-label="View ToDo App live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://github.com/procodes27/todo-app" target="_blank" rel="noopener" class="project-link-btn" aria-label="View ToDo App source code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>ToDo App</h3>
+              <p class="project-desc">
+                Simple and fast task manager with local storage and responsive design.
+              </p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>Local Storage</span>
+                <span>Accessibility</span>
+                <span>Responsive</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects-cta">
+          <a href="https://github.com/procodes27" class="btn ghost" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i>
+            View All Projects
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competitive Programming Section -->
+    <section class="section cp" id="cp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Competitive Programming</h2>
+          <p class="section-subtitle">Profiles and activity</p>
+        </div>
+
+        <div class="cp-grid">
+          <article class="cp-card">
+            <div class="cp-header">
+              <img class="cp-logo" src="https://assets.leetcode.com/static_assets/public/icons/favicon-192x192.png" alt="LeetCode logo" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+              <i class="fas fa-code cp-logo-fallback" aria-hidden="true"></i>
+              <div>
+                <h3>LeetCode</h3>
+                <p class="cp-handle">@sprince27</p>
+              </div>
+            </div>
+            <div class="cp-stats">
+              <span><strong>500+</strong> Solved</span>
+              <span><strong>Top</strong> 15%</span>
+              <span><strong>Contest Rating</strong> 1650+</span>
+            </div>
+            <div class="cp-actions">
+              <a href="https://leetcode.com/u/sprince27/" target="_blank" rel="noopener" class="project-link-btn" aria-label="Visit LeetCode profile">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="cp-card">
+            <div class="cp-header">
+              <img class="cp-logo" src="https://codeforces.org/s/0/apple-icon-120x120.png" alt="Codeforces logo" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+              <i class="fas fa-bolt cp-logo-fallback" aria-hidden="true"></i>
+              <div>
+                <h3>Codeforces</h3>
+                <p class="cp-handle">@prinse27</p>
+              </div>
+            </div>
+            <div class="cp-stats">
+              <span><strong>Rating</strong> 1200+</span>
+              <span><strong>Contests</strong> 25+</span>
+            </div>
+            <div class="cp-actions">
+              <a href="https://codeforces.com/profile/prinse27" target="_blank" rel="noopener" class="project-link-btn" aria-label="Visit Codeforces profile">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="cp-card">
+            <div class="cp-header">
+             <img class="cp-logo" src="gfg_logo.png" alt="GeeksforGeeks logo" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+              <i class="fas fa-terminal cp-logo-fallback" aria-hidden="true"></i>
+              <div>
+                <h3>GeeksforGeeks</h3>
+                <p class="cp-handle">@prinse27</p>
+              </div>
+            </div>
+            <div class="cp-stats">
+              <span><strong>Problems</strong> 300+</span>
+            </div>
+            <div class="cp-actions">
+              <a href="https://www.geeksforgeeks.org/user/prinse27/" target="_blank" rel="noopener" class="project-link-btn" aria-label="Visit GeeksforGeeks profile">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="cp-card">
+            <div class="cp-header">
+              <img class="cp-logo" src="https://codolio.com/favicon.ico" alt="Codolio logo" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-flex';">
+              <i class="fas fa-id-card cp-logo-fallback" aria-hidden="true"></i>
+              <div>
+                <h3>Codolio</h3>
+                <p class="cp-handle">@PRINCE27</p>
+              </div>
+            </div>
+            <div class="cp-stats">
+              <span><strong>Total Questions</strong> 1077</span>
+              <span><strong>Total Active Days</strong> 406</span>
+            </div>
+            <div class="cp-actions">
+              <a href="https://codolio.com/profile/PRINCE27" target="_blank" rel="noopener" class="project-link-btn" aria-label="Visit Codolio profile">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <p class="section-subtitle">Let's work together on your next project</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in new opportunities and exciting projects. 
+              Whether you have a question or just want to say hi, feel free to reach out!
+            </p>
+            
+            <div class="contact-methods">
+              <div class="contact-method">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:sukheprince27@gmail.com">sukheprince27@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-method">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                  <h4>LinkedIn</h4>
+                  <a href="https://www.linkedin.com/in/prince-kumar-06233a28b/" target="_blank" rel="noopener">Connect with me</a>
+                </div>
+              </div>
+              <div class="contact-method">
+                <i class="fab fa-github"></i>
+                <div>
+                  <h4>GitHub</h4>
+                  <a href="https://github.com/procodes27" target="_blank" rel="noopener">Check out my code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">
+                <span class="label-text">Your Name</span>
+                <input type="text" id="name" name="name" required>
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label for="email">
+                <span class="label-text">Your Email</span>
+                <input type="email" id="email" name="email" required>
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">
+                <span class="label-text">Subject</span>
+                <input type="text" id="subject" name="subject" required>
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label for="message">
+                <span class="label-text">Your Message</span>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary" id="sendBtn">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p>&copy; <span id="year"></span> Prince Kumar. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-social">
+            <a href="https://github.com/procodes27" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/prince-kumar-06233a28b/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:sukheprince27@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+  <script>
+    // Cursor-follow glow for About stats (.stat)
+    (function () {
+      const cards = document.querySelectorAll('.about-stats .stat');
+      if (!cards.length) return;
+      cards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          card.style.setProperty('--px', (e.clientX - rect.left) + 'px');
+          card.style.setProperty('--py', (e.clientY - rect.top) + 'px');
+        });
+      });
+    }());
+  </script>
+</body>
+</html>
