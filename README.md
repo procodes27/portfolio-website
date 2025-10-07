@@ -1,74 +1,53 @@
-```markdown
 # Portfolio Website
 
 Live demo: https://procodes27.github.io/portfolio-website/
 
-A clean, responsive personal portfolio website to showcase projects, skills, and contact information. This repository contains the static site files (HTML, CSS, JavaScript, and assets) used to power the GitHub Pages demo above.
+A clean, responsive personal portfolio website to showcase projects, skills, and contact information. This repository contains the static site files (HTML, CSS, JavaScript, and assets) that power the GitHub Pages demo above.
 
 ## Features
 - Responsive layout for desktop, tablet, and mobile
 - Project gallery with links and descriptions
 - About / skills section
-- Contact form (client-side or linked to an external service)
+- Contact method (email link or external form)
 - Smooth scrolling and simple animations
-- Easy customization of content and styling
+- Easy to customize
 
-## Tech / Tools
-- Plain HTML, CSS, and JavaScript (static site)
-- Optional: Node.js for local development tooling (e.g., live-server)
+## Tech
+- HTML, CSS, JavaScript (static site)
 - Hosted on GitHub Pages
 
-## Getting Started (Local)
-To preview or develop locally you can simply open the files in your browser, or run a lightweight static server.
-
+## Preview / Local development
 Option 1 — Open locally:
 1. Clone the repo:
    git clone https://github.com/procodes27/portfolio-website.git
 2. Open `index.html` in your browser.
 
-Option 2 — Using a simple local server (recommended):
-1. Install a static server if you don't have one. Example using npm:
+Option 2 — Use a simple local server (recommended):
+1. Install a static server (example using npm):
    npm install -g live-server
 2. Start the server from the project root:
    live-server
 
 This will open a local dev server and refresh automatically on changes.
 
-## Customization
-- Update content:
-  - Edit `index.html` to change text, sections, and links.
-  - Update project cards to add/remove portfolio items and change their URLs.
-- Update styling:
-  - Modify CSS found in `css/` (or wherever styles are located).
-  - Replace fonts, colors, or layout rules to match your branding.
-- Update assets:
-  - Put images in `assets/` or `images/` and reference them from HTML/CSS.
+## Customize
+- Edit `index.html` to change sections, text, and links.
+- Update CSS files (likely in a `css/` folder) to change colors, fonts, and layout.
+- Replace images in the `assets/` or `images/` folder and update references.
 
-## Deployment (GitHub Pages)
-This repository is already configured for GitHub Pages. To deploy updates:
-1. Commit and push changes to the repository (main branch).
-2. GitHub Pages will automatically build and serve from the `main` branch or the branch configured in repository settings.
-3. Your site will be available at:
-   https://procodes27.github.io/portfolio-website/
+## Deploy (GitHub Pages)
+This repository is configured to serve a static site via GitHub Pages.
+- Push changes to the `main` branch (or the branch configured in repository settings).
+- The site will be available at: https://procodes27.github.io/portfolio-website/
 
-If you want to use a custom domain, add a `CNAME` file to the repository and configure DNS on your domain provider.
+To use a custom domain, add a `CNAME` file with your domain and update DNS records with your registrar.
 
 ## Contributing
-Contributions are welcome:
-- Fix typos and accessibility issues.
-- Improve responsive styles or performance.
-- Add new projects or optimizations.
-
-Please open a pull request with a clear description of changes.
+Contributions are welcome. Open a pull request to propose changes (fixes, new projects, accessibility improvements, optimizations).
 
 ## License
-Add your preferred license here (e.g., MIT). If you don't have a preference, MIT is a common choice:
-
-MIT License — see LICENSE file for details.
+Add a LICENSE file if you want to apply an open-source license (MIT is a common choice).
 
 ## Contact
 - GitHub: https://github.com/procodes27
 - Site: https://procodes27.github.io/portfolio-website/
-
-Feel free to open an issue or PR if you'd like help improving the README or the site itself.
-```
